@@ -728,7 +728,7 @@ transform:translateY(0px);
 .footer .artdeveloper:hover a{ color:#fd2293;}
 
 .bottoms{
-  padding-bottom: 15px;
+  padding-bottom: 2%;
 }
 
 .ref {
@@ -756,6 +756,7 @@ transform:translateY(0px);
   color: white;
   transition: all .4s ease-in-out;
   text-decoration: none;
+  font: 18px/1.2 "SFUITextSemibold", "Trebuchet MS", sans-serif;
 }
 
 .mn-link:hover {
