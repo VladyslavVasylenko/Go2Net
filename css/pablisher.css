@@ -785,7 +785,9 @@ transform:translateY(0px);
 .contacts .ptb97124{ padding-top: 30px;}
 .authorizations .ptb97124{ padding-top: 170px;}
 
-
+.mn {
+margin-bottom: 15px;
+}
 
 .main{ height:auto;}
 .main .main-inf{-webkit-animation:animOpacity 1 0.3s 0.7s ease-out forwards; animation:animOpacity 1 0.3s 0.7s ease-out forwards;}
