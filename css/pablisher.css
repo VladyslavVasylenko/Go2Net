@@ -756,24 +756,23 @@ transform:translateY(0px);
   color: white;
   transition: all .4s ease-in-out;
   text-decoration: none;
-  font: 18px/1.2 "SFUITextSemibold", "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+  font-family: SFUITextRegular, "Trebuchet MS", sans-serif;
 }
 
 .mn-link:hover {
-  text-shadow: 0 0 10px #000000;
   padding-bottom: 3px;
   border-bottom: 1px solid white;
 }
 
 .item {
   padding-bottom: 5px;
-  text-shadow: 0 0 1px black;
 }
 
 .subitem {
   list-style-type: circle;
   padding-bottom: 5px;
-  text-shadow: 0 0 1px black;
 }
 
 @media only screen and (max-height: 750px){
