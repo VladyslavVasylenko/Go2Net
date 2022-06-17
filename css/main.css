@@ -93,7 +93,7 @@ section, footer, header, aside{
 .header .header-move{-webkit-transition: all 0.5s; transition: all 0.5s;}
 .header .header-langs{ float: left; text-transform: uppercase; font-size: 14px; position: relative; width: 74px; text-align: center; padding-right: 24px; height: 54px; -webkit-transition: height 0.2s; transition: height 0.2s; overflow: hidden;}
 .header .header-langs:after{ position: absolute; content: ''; background: url(../img/sprite.png) -1px -1px; width: 10px; height: 6px; right: 5px; top: 22px;}
-.header .header-langs:hover{ height: 112px; }
+.header .header-langs:hover{ height: 162px; }
 .header .header-langs:hover a{ background: #ff5722;}
 .header .header-langs a{ display: block; width: 100%; text-decoration: none; padding: 17px 0; height: 54px; border-radius: 0 0 3px 3px; border-top: 1px solid #ef8e05; -webkit-transition: background 0.3s; transition: background 0.3s;}
 .header .header-langs a.active{ border-radius: 3px 3px 0 0; border-top: none;}
