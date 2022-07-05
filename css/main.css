@@ -53,7 +53,7 @@
 *,*:before,*:after{box-sizing: border-box;}
 *{margin:0;
 	padding:0;}
-a{text-decoration: underline;color:inherit; outline:none !important;}
+a{text-decoration: none; color:inherit; outline:none !important;}
 a.alink{ text-decoration: none;}
 a:hover{ color:#fff; text-decoration: none;}
 :focus{outline:none;}
@@ -727,21 +727,6 @@ box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.5);}
 .footer .logo_iabLink img{display: inline-block; width: 100%; height: auto; }
 .footer .artdeveloper:hover a{ color:#fd2293;}
 
-.link {
-	text-decoration: none;
-}
-
-.box {
-	transition: all 0.5s ease-in-out;
-	border: 1px solid rgba(255, 255, 255, 0);
-}
-
-.box:hover {
-	/* box-shadow: 0px 1px 0px #ffffff; */
-	border: 1px solid white;
-	border-radius: 10px;
-}
-
 @media only screen and (max-height: 750px){
 	.hideNomal{ display: none !important;}
 	.hideFull{ display: block !important;}
@@ -972,7 +957,19 @@ box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.5);}
 	.popupfix .textheight.active{ height: 65px;}
 }
 
+.link {
+	text-decoration: none !important;
+}
 
+.box {
+	transition: all 0.5s ease-in-out;
+	border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.box:hover {
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 10px;
+}
 
 
 
